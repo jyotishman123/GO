@@ -10,7 +10,7 @@ func main() {
 	// var username string
 
 	// another way of declaring a string
-	congrats:= "Happy Birthday dear"
+	congrats:= "Happy Birthday"
 
 	fmt.Println("hi->",congrats,"💥");
 
