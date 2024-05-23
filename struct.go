@@ -18,9 +18,9 @@ func test(m messageToSend){
 
 }
 
-
-
-
+func (app messageToSend) update(new string) string {
+	 return new
+}
 
 func main(){
 	 m:= messageToSend{
@@ -33,7 +33,6 @@ func main(){
 
 // anonymous structs
 
-
 	 myCar:= struct {
 		Make string
 		Model string
@@ -45,4 +44,5 @@ func main(){
 	 test(m)
 	 fmt.Println(myCar)
 	 fmt.Println("struct")
+	 fmt.Println(m.update("new message"))
 }
