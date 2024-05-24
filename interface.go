@@ -15,7 +15,7 @@ type BirthdayMessage struct {
 
 // Define the getMessage method for BirthdayMessage
 func (sr BirthdayMessage) getMessage() {
- fmt.Printf("Welcome to the birthday party at %s, %s!", sr.birthdayTime, sr.recipientName)
+ fmt.Printf("Welcome to the birthday party at %s, %s!\n", sr.birthdayTime, sr.recipientName)
 }
 
 func main() {
@@ -27,4 +27,5 @@ func main() {
 
 	// Call the getMessage method on the pm instance and print the result
 	 pm.getMessage()
+	 
 }
